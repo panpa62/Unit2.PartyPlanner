@@ -54,9 +54,9 @@ function renderParties(){
 
 async function render(){
     await getParties();
-    console.log("was at render after getParties")
+    //console.log("was at render after getParties")
     renderParties();
-    console.log("was at render after renderParties")
+    //onsole.log("was at render after renderParties")
 }
 render();
 
